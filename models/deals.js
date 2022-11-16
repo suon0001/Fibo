@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 let dealSchema = new Schema({
+  test: { type: Number },
   amount: { type: Number },
   closedate: { type: String },
   dealname: { type: String},
