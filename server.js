@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-const private_app_token = 'pat-eu1-ee97039d-b9c0-4f1e-9097-527cbb68b2d6';
+const private_app_token = 'pat-eu1-e483b2bf-5c28-49a7-a39c-0150fdb1e2d8';
 
 require("dotenv-flow").config();
 
